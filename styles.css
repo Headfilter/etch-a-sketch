@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+
+#grid-container {
+    display: flex;
+    border: solid black 1px;
+    width: 750px;
+    height: 750px;
+    flex-wrap: wrap;
+}
+
+.cell {
+    border: solid 1px lightgray;
+    flex: 0 0 6.25%;
+    box-sizing: border-box;
+}
+
+.cell:hover {
+    background-color: black;
+}
+
+#grid-size {
+    width: 80px;
+    height: 40px;
+    margin-bottom: 10px;
+}
